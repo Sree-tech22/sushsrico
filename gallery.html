@@ -1,0 +1,61 @@
+<!-- PAGE 2: gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sample room images and facilities at Sushsri PG Hostel." />
+  <title>Gallery - Sushsri PG Hostel</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+    }
+    .grid img {
+      width: 100%;
+      max-width: 40%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .grid-container {
+      padding: 2em;
+    }
+    @media (max-width: 768px) {
+      .grid img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sushsri PG Hostel</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <div class="grid-container">
+    <h2>Room Gallery</h2>
+    <div class="grid">
+      <img src="./assets/1.jpeg" alt="Room Sample 1" />
+      <img src="./assets/2.jpeg" alt="Room Sample 2" />
+      <img src="./assets//3.jpeg" alt="Room Sample 3" />
+      <img src="./assets/4.jpeg" alt="Room sample 4">
+    </div>
+  </div>
+  <footer>
+    <div class="footer-links">
+      <p><strong>Quick Links:</strong> <a href="index.html">Home</a> | <a href="gallery.html">Gallery</a> | <a href="about.html">About</a></p>
+      <p><strong>Follow Us:</strong> <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+      
+      <p><strong>Address:</strong> Sushsri PG Hostel, Siddarth Colony, Madiwala, Kormangala 2nd Block, Bengaluru</p>
+    </div>
+    <p>&copy; 2025 Sushsri PG Hostel</p>
+  </footer>
+</body>
+</html>

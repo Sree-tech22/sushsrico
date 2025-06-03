@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header, footer { background: #4CAF50; color: white; padding: 1em; text-align: center; }
+nav a { margin: 0 15px; color: white; text-decoration: none; }
+.banner { background: url('./assets/1.jpeg') center/cover no-repeat; height: 400px; }
+.content { padding: 2em; }
+.features ul { list-style: none; padding: 0; }
+.features li { margin: 10px 0; }
+.info-section { background: #f9f9f9; padding: 2em; margin-top: 2em; border-radius: 8px; }
+.whatsapp { position: fixed; bottom: 20px; right: 20px; z-index: 100; }
+.whatsapp img { width: 50px; height: 50px; }
+.footer-links { margin-top: 1em; font-size: 0.9em; }
+.footer-links a { color: white; margin: 0 10px; text-decoration: underline; }
