@@ -1,7 +1,7 @@
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 header, footer { background: #4CAF50; color: white; padding: 1em; text-align: center; }
 nav a { margin: 0 15px; color: white; text-decoration: none; }
-.banner { background: url('./assets/1.jpeg') center/cover no-repeat; height: 400px; }
+.banner { background: url('./assets/room-main.jpeg') center/cover no-repeat; height: 400px; }
 .content { padding: 2em; }
 .features ul { list-style: none; padding: 0; }
 .features li { margin: 10px 0; }
