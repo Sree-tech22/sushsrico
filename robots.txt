@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ramprasad-13.github.io/sitemap.xml
